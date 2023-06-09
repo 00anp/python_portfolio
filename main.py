@@ -10,8 +10,8 @@ with col1:
 with col2:
     st.title("Alfonso Núñez")
     content = """
-    Fullstack developer with over 8 years of experience in the electronics industry, skilled in a wide range of 
-    technologies, including PHP, Python, Javascript, C#, CSS, HTML, SQL, RPA and more. 
+    Fullstack Python developer with over 8 years of experience in the electronics industry, skilled in a wide range of 
+    technologies, including PHP, Javascript, C#, CSS, HTML, SQL, RPA and more. 
     This versatile skill set has allowed me to work with a diverse range of clients and projects, 
     from purchase orders automations to large warehouse management apps, and has given me the flexibility to work 
     with different tech stacks based on each project's unique requirements. My ability to quickly adapt to new 
@@ -21,3 +21,6 @@ with col2:
     workspace environment.
     """
     st.info(content)
+
+call_to_action = "Below you can find some of the apps I have built. Feel free to contact me."
+st.write(call_to_action)
